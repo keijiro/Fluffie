@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
         {
             var anchor = vertices[Random.Range(0, vertices.Length)];
             var pos = anchor + Random.onUnitSphere;
-            var go = Instantiate(_prefab, pos, Quaternion.identity);
+            var go = Instantiate(_prefab, pos, Random.rotation);
             go.GetComponent<SpringJoint>().connectedAnchor = anchor;
             go.GetComponent<Renderer>().material.color = Color.HSVToRGB(Random.value, 0.6f, 1);
         }

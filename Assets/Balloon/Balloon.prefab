@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4706885446056168}
   - component: {fileID: 33709186206584170}
   - component: {fileID: 23727215789095058}
-  - component: {fileID: 135318529712520466}
   - component: {fileID: 54898850082756112}
   - component: {fileID: 145839850374150212}
+  - component: {fileID: 64798378004277998}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Untagged
@@ -85,7 +85,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1449292417171038}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300006, guid: 343014151d70b9042b9d90b68eed77ff, type: 3}
 --- !u!54 &54898850082756112
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -101,18 +101,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &135318529712520466
-SphereCollider:
+--- !u!64 &64798378004277998
+MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1449292417171038}
-  m_Material: {fileID: 13400000, guid: 9461e3c45b44cbc469ad22a2eb8358df, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300006, guid: 343014151d70b9042b9d90b68eed77ff, type: 3}
 --- !u!145 &145839850374150212
 SpringJoint:
   m_ObjectHideFlags: 1
