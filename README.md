@@ -1,6 +1,7 @@
 # Fluffie
 
 ![gif](https://i.imgur.com/KVSWLVT.gif)
+![gif](https://i.imgur.com/n3DtgdC.gif)
 
 How to play with this thing
 ---------------------------
